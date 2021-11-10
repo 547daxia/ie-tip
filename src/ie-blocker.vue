@@ -21,7 +21,7 @@
           @click="onclick(item.href)"
         >
           <div class="img">
-            <img :src="item.img" alt="" />
+            <img :src="item.img" :alt="item.name" />
           </div>
           <div class="name">
             <span>{{ item.name }}</span>
@@ -44,7 +44,7 @@ import firefox from '../assets/firefox.png'
 import safari from '../assets/safari.png'
 import opera from '../assets/opera.png'
 export default {
-  name: 'ie-blocker',
+  name: 'ie-tip',
   data () {
     return {
       visible: false,
