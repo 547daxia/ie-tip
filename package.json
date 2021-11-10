@@ -1,6 +1,6 @@
 {
   "name": "ie-tip",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "当用户使用IE内核浏览器时提示他换其他浏览器",
   "main": "src/index.js",
   "private": false,
