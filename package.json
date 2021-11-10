@@ -1,0 +1,11 @@
+{
+  "name": "ie-tip",
+  "version": "1.0.0",
+  "description": "当用户使用IE内核浏览器时提示他换其他浏览器",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qt_fei",
+  "license": "ISC"
+}
