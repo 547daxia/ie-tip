@@ -1,6 +1,6 @@
 <template>
-  <div id="ie-blocker-mask" v-show="visible" @click.self="close">
-    <div id="ie-blocker-modal">
+  <div id="ie-tip-mask" v-show="visible" @click.self="close">
+    <div id="ie-tip-modal">
       <div class="_header">
         <h2>您的浏览器版本过低</h2>
         <p>
@@ -88,8 +88,6 @@ export default {
     },
     getinfo () {
       var userAgent = navigator.userAgent //取得浏览器的userAgent字符串
-      console.log(userAgent) //可以将这个打印出来会很清晰的展示出浏览器的类型
-
       if (userAgent.includes('Trident')) {
         this.visible = true
       }
@@ -101,7 +99,7 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-#ie-blocker-mask {
+#ie-tip-mask {
   position: fixed;
   left: 0;
   top: 0;
@@ -109,7 +107,7 @@ export default {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 999;
-  #ie-blocker-modal {
+  #ie-tip-modal {
     position: absolute;
     top: 50%;
     left: 50%;

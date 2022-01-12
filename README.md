@@ -33,4 +33,3 @@ Vue.use(ieTip)
 
 
 
-https://qtfei.com/images/ie-tip.png

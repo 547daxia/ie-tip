@@ -1,7 +1,7 @@
-import ieBlocker from './ie-blocker.vue'
+import ieTip from './ie-tip.vue'
 
-ieBlocker.install = function (Vue) {
-  Vue.component(ieBlocker.name, ieBlocker)
+ieTip.install = function (Vue) {
+  Vue.component(ieTip.name, ieTip)
 }
 
-export default ieBlocker
+export default ieTip
