@@ -27,6 +27,10 @@ Vue.use(ieTip)
 
 
 
+如图所示
+
+![](https://qtfei.com/images/ie-tip.png)
 
 
-![image-20211110183625772](./image-20211110183625772.png)
+
+https://qtfei.com/images/ie-tip.png
